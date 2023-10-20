@@ -226,7 +226,7 @@ dk =abs(kx(1)-kx(2))
    write(*,'(A,E10.3,A)')'Plasma density   =', ne, 'cm^{-3}'
    write(*,'(A,E10.3,A)')'Beam_density/plasma_density=', nbeam/ne,'  '
    write(*,'(A,E9.2,A)')'Pl Freq. Omega_pe=', Omega,' s^{-1}'
-   write(*,'(A,E9.2,A)')'Collisional Freq     =', coll_ei,' s^{-1}'
+   write(*,'(A,E9.2,A)')'Collisional Freq =', coll_ei,' s^{-1}'
    write(*,'(A,E10.3,A)')'Quasilinear time =', tqv,' sec'
 
 ! ----------------------------------------------

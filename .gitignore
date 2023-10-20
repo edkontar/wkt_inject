@@ -31,3 +31,8 @@
 *.out
 *.app
 wkt
+progress.ttt
+
+# output data and image files
+*.dat
+*.ps
