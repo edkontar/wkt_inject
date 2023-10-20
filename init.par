@@ -1,0 +1,8 @@
+3.        !Tmax in seconds - Time of calculations
+1e9       !Nb in cm^{-3} -  Electron beam density
+2000.0    !MHz  - Plasma frequency - defines plasma density  
+3.0       !*10^9cm - the spatial size of the electron cloud
+5.00      !*10^9cm/sec - the velocity of electron beam
+-9.0      !*10^9cm = Xmin - lower border of the calculation box 
+60.0      !*10^9cm = Xmax - upper border of the calculation box
+1e-3      !sec - time of data save
