@@ -33,6 +33,9 @@
 wkt
 progress.ttt
 
-# output data and image files
+# output data and image/animation files
 *.dat
 *.ps
+*.gif
+*.mp4
+

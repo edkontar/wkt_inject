@@ -276,7 +276,8 @@ IF ((t-last_save).GE.time_save) THEN
 
 !FORALL(i=2:floor(0.3/dk-1)) f(i)=f(i)+dt*5e6*kx(i)**4/v_t*(0.05-t/kx(i))*exp(-(0.05-t/kx(i))**2/0.01**2)/k1/0.01
 
-FORALL(i=2:floor(0.3/dk-1)) f(i)=f(i)+dt*Nbeam*exp(-(1./kx(i)-25.)**2/10.**2)*exp(-(1.-t)**2/0.15**2)/k1/0.15/10./PI
+FORALL(i=2:floor(0.3/dk-1)) f(i)=f(i)+dt*Nbeam*exp(-(1./kx(i)-25.)**2/10.**2)*&
+                                      exp(-(1.-t)**2/0.15**2)/k1/0.15/10./PI
 !injection of electrons 
 ! change made after discussion with Adam K. and Meriem 
 ! Basically WKT code is modified similar to equations 1 and 2 in 
